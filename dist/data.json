@@ -1,0 +1,94 @@
+{
+	"shoes": [{
+			"src": "pexels-aditya-aiyar-1407354.jpg",
+			"title": "aditya black",
+            "prijs": 82,
+            "id": 1
+		},
+		{
+			"src": "pexels-elegance-nairobi-3389419.jpg",
+			"title": "elegance white",
+            "prijs": 50,
+            "id": 2
+		},
+        {
+			"src": "pexels-ihsan-aditya-1445696.jpg",
+			"title": "ihsan blanche",
+            "prijs": 75,
+            "id": 3
+		},
+        {
+			"src": "pexels-lukas-292998.jpg",
+			"title": "lukas black",
+            "prijs": 62,
+            "id": 4
+		},
+        {
+			"src": "pexels-lukas-292999.jpg",
+			"title": "lukas black classic",
+            "prijs": 49,
+            "id": 5
+		},
+        {
+            "src": "pexels-mnz-1598505.jpg",
+            "title": "mnz grey",
+            "prijs": 72,
+            "id": 6
+        },
+        {
+			"src": "pexels-melvin-buezo-2529146.jpg",
+			"title": "melvin colorfull",
+            "prijs": 52,
+            "id": 7
+		},
+        {
+			"src": "pexels-kabita-darlami-5788986.jpg",
+			"title": "kabita white",
+            "prijs": 57,
+            "id": 8
+		},
+
+        {
+			"src": "pexels-mnz-1598508.jpg",
+			"title": "mnz yellow",
+            "prijs": 36,
+            "id": 9
+		},
+        {
+			"src": "pexels-monicore-134064.jpg",
+			"title": "monicore yellow",
+            "prijs": 45,
+            "id": 10
+		},
+        {
+			"src": "pexels-mstudio-1240892.jpg",
+			"title": "mstudio red",
+            "prijs": 28,
+            "id": 11
+		},
+        {
+			"src": "pexels-oluwaseun-duncan-186035.jpg",
+			"title": "oluwaseun brown",
+            "prijs": 55,
+            "id": 12
+		},
+        {
+			"src": "pexels-shane-aldendorff-786003.jpg",
+			"title": "shane nike red",
+            "prijs": 52,
+            "id": 13
+		},
+        {
+			"src": "pexels-ray-piedra-1478442.jpg",
+			"title": "ray nike black",
+            "prijs": 60,
+            "id": 14
+		},
+        {
+			"src": "pexels-ready-made-3987280.jpg",
+			"title": "all star white",
+            "prijs": 73,
+            "id": 15
+		}   
+	]
+}
