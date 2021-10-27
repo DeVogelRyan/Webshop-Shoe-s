@@ -164,3 +164,16 @@ body {
 .fadeIn-left {
     left: 20%;
 }
+
+.titel {
+    padding: 8% 10%;
+}
+
+.OneItem {
+    padding: 0% 10%;
+    margin-bottom: 5%;
+}
+
+.OneItem img {
+    width: 20%;
+}
