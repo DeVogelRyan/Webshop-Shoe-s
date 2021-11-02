@@ -33,7 +33,7 @@ window.onload = () => {
             });
             img.src = `../img/${element.src}`;
             h3.innerHTML = element.title;
-            price.innerHTML = `€${element.prijs}`;
+            price.innerHTML = `€${element.price}`;
 
             container.classList.add("container");
             container.classList.add("toggle");
@@ -68,7 +68,7 @@ window.onload = () => {
             if (currentClicked == i.id) {
                 source = i.src;
                 title = i.title;
-                price = i.prijs;
+                price = i.price;
                 console.log(source);
             }
         }
@@ -115,7 +115,8 @@ window.onload = () => {
                 products.push({
                     'productId': i.id,
                     'title': i.title,
-                    'src': i.src
+                    'src': i.src,
+                    'price': i.price
                 });
                 localStorage.setItem('products', JSON.stringify(products));
                 showSuccesPopup();
