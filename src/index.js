@@ -12,7 +12,7 @@ window.onload = () => {
 
     function makeDataGlobal(data) {
         GlobalData = data;
-        console.log(GlobalData);
+        //console.log(GlobalData);
         createElements();
     }
 
@@ -60,7 +60,7 @@ window.onload = () => {
         hideAllContent();
         let currentClicked = event.currentTarget.id;
         GlobalId = currentClicked;
-        console.log(GlobalId);
+        //console.log(GlobalId);
         let parent = document.getElementById("clicked");
         let img = document.createElement("img");
         let title, price, source;

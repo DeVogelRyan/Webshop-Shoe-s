@@ -166,7 +166,10 @@ body {
 }
 
 .titel {
-    padding: 8% 10%;
+    padding-top: 8%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 2%;
 }
 
 .OneItem {
@@ -180,20 +183,51 @@ body {
 
 #cartItems {
     padding-left: 10%;
+    padding-right: 5%;
     margin-bottom: 20%;
     display: flex;
     flex-direction: column;
 }
 
+#cartItems > p {
+    margin-top: 2%;
+}
+
 #cartItems img {
-    width: 50%;
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
 }
 
 #cartItems div {
     display: flex;
     justify-content: space-around;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-right: 5%;
 }
 
 #cartItems div article {
-    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 2;
+}
+
+#cartItems div div {
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+}
+
+#cartItems div div > select {
+    height: 20%;
+}
+
+#cartItems div article h3 {
+    font-size: 1.5em;
+}
+
+#cartItems div article p {
+    font-size: 1.2em;
 }

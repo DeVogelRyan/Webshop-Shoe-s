@@ -137,11 +137,59 @@ footer {
   color: white;
 }
 
-footer a {
-  text-decoration: none;
-  color: white;
+footer div {
+  display: flex;
+  justify-content: center;
 }
 
-footer i {
-  font-size: 2em;
+footer div > p {
+  font-size: 1.5em;
+}
+
+@media only screen and (max-width: 800px) {
+
+  #clicked {
+    flex-direction: column;
+    width: 100%;
+    padding: 2%;
+  }
+
+  #clicked img {
+    order: 2;
+  }
+
+  #clicked img {
+    width: 100%;
+  }
+
+  .content-clicked {
+    width: 100%;
+    padding: 0;
+    padding-bottom: 5%;
+  }
+
+  .cartButton {
+    width: 40%;
+  }
+
+  #cartItems div article {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  #cartItems div article h3 {
+    font-size: 1.1em;
+    margin-top: 20%;
+  }
+
+  #cartItems div article > p {
+    margin-top: 10%;
+    font-size: 1em;
+  }
+
+  .titel {
+    margin-top: 5%;
+  }
+
 }
